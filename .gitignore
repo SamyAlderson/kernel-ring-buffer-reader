@@ -1,15 +1,36 @@
-__pycache__/
-*.pyc
-.pytest_cache/
-.env
-*.egg-info/
-dist/
+# .gitignore
+# ignore build artifacts
 build/
-.venv/
+
+# ignore node_modules
 node_modules/
-target/
-bin/
-obj/
-*.o
-*.so
-*.dylib/
+
+# ignore coverage reports
+coverage/
+
+# ignore pyc files
+*.pyc
+
+# ignore IDE config files
+.idea/
+
+# ignore VSCode settings
+.vscode/
+
+# ignore Docker volumes
+/.docker/
+
+# ignore macOS files
+.DS_Store
+
+# ignore Windows files
+Thumbs.db
+
+# ignore Linux files
+._*
+
+# ignore IDE logs
+*.log
+
+# ignore Docker logs
+docker*.log
